@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px white;
+}
+
+*{
+    font-family: 'Jost', sans-serif;
+}
+
+
+button {
+    border-radius: 100rem;
+    font-size: 1rem;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 2px 1000px 1px #000000 inset;
+  }
+
+button:hover{
+    transform: scale(1.07);
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    color: white;
+}
+
+h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.author{
+    color: orchid;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    margin-bottom: 9%;
+}
+
+.msg{
+    padding: 30px;
+    font-size: larger;
+    color: white;
+}
+
+.lines{
+    font-size: 1.2em;
+    letter-spacing: 1.6px;
+}

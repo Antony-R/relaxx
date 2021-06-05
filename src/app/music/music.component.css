@@ -1,0 +1,27 @@
+audio::-webkit-media-controls-panel{
+    background-color: white;
+}
+audio::-webkit-media-controls-enclosure {
+    border: solid 4px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+}
+audio {
+    width: 250px;
+    height: 40px;
+}
+table{
+    margin: auto;
+}
+p{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Darker Grotesque', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+}
+td{
+    padding: 30px;
+}
+

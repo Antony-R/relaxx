@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.7em;
+    letter-spacing: 6px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+}

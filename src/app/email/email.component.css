@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Geo Sans Light;
+    src: url(/assets/GeosansLight-Oblique.ttf);
+  }
+i{
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    float: right;
+    font-size: 25px;
+}
+
+.active{
+    color: white;
+}
+
+span{
+    width: fit-content;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: transparent;
+    letter-spacing: 2px;
+    font-family: 'Geo Sans Light', sans-serif;
+}
