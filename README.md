@@ -7,7 +7,7 @@ The poetrydb api is used for getting random poems.<br>
 The typescript Math.random() is used to generate random line counts.<br>
 
 Here is a link to the website :)<br>
-https://relaxx-0.web.app/
+https://relaxx-website.web.app/
 
 <br>
 Choose master branch to view source code.
