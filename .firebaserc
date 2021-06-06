@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "relaxx-0"
+    "default": "relaxx-0",
+    "relaxx": "relaxx-website"
   }
 }
