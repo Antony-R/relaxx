@@ -1,10 +1,8 @@
-*{
-    font-family: 'Jost', sans-serif;
-}
-
 button {
     border-radius: 100rem;
     font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
     padding: 5px 10px 5px 10px;
     color: white;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
@@ -14,54 +12,68 @@ button {
     background-clip: content-box, border-box;
     margin: 10px 20px 10px 20px;
     box-shadow: 2px 1000px 1px #000000 inset;
-  }
-  
+}
 
-p{
+i {
+    color: white;
+    font-size: 30px;
+}
+
+p {
     color: white;
     font-size: 1.3em;
     letter-spacing: 1.3px;
+    font-family: 'Jost', sans-serif;
 }
 
-
-
-h1{
+h1 {
     text-align: center;
     color: white;
     text-shadow: 3px 3px 5px white;
     padding-top: 20px;
+    font-family: 'Jost', sans-serif;
 }
 
-table{
+table {
     margin: auto;
     padding: 30px;
     margin-bottom: 10px;
 }
-button:hover{
+
+button:hover {
     transform: scale(1.08);
 }
-.controls{
+
+.controls {
     margin-top: 30px;
 }
-.display{
+
+.display {
     padding: 20px;
     padding-top: 12px;
     margin-top: 10px;
     margin-bottom: 10%;
+    font-family: 'Jost', sans-serif;
 }
 
-.orange{
+.orange {
     color: orange;
     font-weight: bold;
 }
 
-.pink{
+.pink {
     color: palevioletred;
     font-weight: bold;
 }
 
-.msg{
-    font-size: 1.3em;
-    letter-spacing: 1.2px;
+.msg {
+    font-size: 1.2em;
     color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

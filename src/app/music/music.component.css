@@ -10,18 +10,34 @@ audio {
     width: 250px;
     height: 40px;
 }
-table{
-    margin: auto;
-}
+
 p{
     color: white;
-    text-align: center;
     font-weight: bolder;
     font-family: 'Darker Grotesque', sans-serif;
     letter-spacing: 3px;
     font-size: 1.3em;
-}
-td{
-    padding: 30px;
+    align-self: center;
 }
 
+.container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.flex-item{
+    flex: 1 1 25%; /*grow | shrink | basis */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.audio{
+    align-self: center;
+}

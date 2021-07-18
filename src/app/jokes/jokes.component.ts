@@ -12,6 +12,7 @@ export class JokesComponent implements OnInit {
   random_joke: any = []
   shouldReveal: boolean = false
   firsttime = true
+  spin = false
 
   constructor(private service: JokesService) {
 
@@ -24,11 +25,14 @@ export class JokesComponent implements OnInit {
   anyRandomJoke() {
     this.shouldReveal = false
     this.firsttime = false
+    this.spin = true
     this.service.getanyRandomJoke()
       .subscribe(response => {
+        this.spin = false
         this.random_joke = response
       }, error => {
         this.random_joke.setup = 'Some Error Occurred...'
+        this.spin = false
       });
   }
 
@@ -39,24 +43,30 @@ export class JokesComponent implements OnInit {
   generalJoke() {
     this.shouldReveal = false
     this.firsttime = false
+    this.spin = true
     this.service.getGeneralJoke()
       .subscribe(response => {
+        this.spin = false
         this.random_joke = response
         this.random_joke = this.random_joke[0] //Since this request gets response as an array we assign first element to our variable.
       }, error => {
         this.random_joke.setup = 'Some Error Occured..'
+        this.spin = false
       });
   }
 
   programmingJoke() {
     this.shouldReveal = false
     this.firsttime = false
+    this.spin = true
     this.service.getProgrammingJoke()
       .subscribe(response => {
+        this.spin = false
         this.random_joke = response
         this.random_joke = this.random_joke[0] //Since this request gets response as an array we assign first element to our variable.
       }, error => {
         this.random_joke.setup = 'Some Error Occured..'
+        this.spin = false
       });
   }
 

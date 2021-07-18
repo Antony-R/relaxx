@@ -1,13 +1,14 @@
 <h1><u>Poetry</u></h1>
-<table>
-    <th><button (click)="getPoem()">Get A Random Poem</button></th>
-    <tr>
-        <td>
+<div class="container">
+    <div class="flex-item">
+        <button (click)="getPoem()">Get A Random Poem</button>
+        <div class="flex-poem">
             <div *ngIf="firsttime" class="msg">Click the button to get a poem...</div>
+            <i class="fa fa-spinner fa-spin" *ngIf="spin"></i>
             <div class="msg">{{ errormsg }}</div>
             <h3>{{ poem.title }}</h3>
             <p *ngFor="let line of poem.lines" class="lines">{{ line }}</p>
             <p class="author">{{ poem.author }}</p>
-        </td>
-    </tr>
-</table>
+        </div>
+    </div>
+</div>

@@ -2,16 +2,21 @@ h1{
     text-align: center;
     color: white;
     text-shadow: 3px 3px 5px white;
-}
-
-*{
     font-family: 'Jost', sans-serif;
 }
 
 
+i{
+    color: white;
+    font-size: 30px;
+}
+
 button {
     border-radius: 100rem;
     font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
     padding: 5px 10px 5px 10px;
     color: white;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
@@ -19,7 +24,7 @@ button {
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 5px 5px 5px;
     box-shadow: 2px 1000px 1px #000000 inset;
   }
 
@@ -27,19 +32,14 @@ button:hover{
     transform: scale(1.07);
 }
 
-table{
-    margin: auto;
-}
 
-td{
-    color: white;
-}
 
 h3{
     font-size: 1.5em;
     letter-spacing: 2px;
     color: orange;
     text-transform: uppercase;
+    font-family: 'Jost', sans-serif;
 }
 
 .author{
@@ -47,16 +47,36 @@ h3{
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 1.2em;
-    margin-bottom: 9%;
+    font-family: 'Jost', sans-serif;
 }
 
 .msg{
-    padding: 30px;
     font-size: larger;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .lines{
     font-size: 1.2em;
     letter-spacing: 1.6px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-poem{
+    margin-top: 15px;
+    align-self: center;
 }
